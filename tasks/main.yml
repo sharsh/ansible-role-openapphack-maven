@@ -1,3 +1,5 @@
 ---
 - name: Install maven
-  package: name=maven state=latest
+  package: 
+    name: maven
+    state: latest
